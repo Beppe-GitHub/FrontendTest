@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  	<title>Pagina dinamica</title>
+  	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,600,600italic' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" media="screen, projection" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<!--[if IE]>
+    	<link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  	<![endif]-->
+</head>
+<body class="dynamic">
+	<header id="header">
+		<div class="row">
+			<div class="container">
+				<div class="col-xs-6 col-sm-2 col-md-2 col-lg-3">
+					<div id="logo" itemscope="" itemtype="http://schema.org/Organization">
+						<a itemprop="url" href="#"><img itemprop="logo" src="img/logo.png" alt="pronto pro" class="img-responsive"></a>
+					</div>
+				</div>
+				
+				<div class="menuContent col-xs-6 col-sm-10 col-md-10 col-lg-9">
+					<nav>
+						<ul class="list-unstyled menuTop">
+							<li class="hidden-xs">
+								<h2><a href="#" class="smallLink">Come funzione</a></h2>
+							</li>
+							<li>
+								<h2><a href="#" rel="nofollow" class="login">Accedi</a></h2>
+							</li>
+							<li class="prof hidden-xs">
+								<h2><a href="#" class="btn btn-default">Sono un professionista</a></h2>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="colForm col-xs-12 col-sm-12 col-md-8 col-lg-8" >
+					<form role="form" class="choice form-horizontal">
+					  <div class="form-group">
+					    <label for="choiceForm" class="col-sm-2 control-label">Scelta</label>
+					    <div class="col-sm-10">
+					    	<input type="text" class="form-control" id="choiceForm" placeholder="Scegli" autocomplete="off">
+					    </div>
+					  </div>
+					</form>
+					
+					<form role="form" class="dynamicForm form-horizontal" novalidate></form>
+				</div>
+				<div class="colData col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<ul class="submissionItems list-unstyled">
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<footer id="footer">
+		<div class="row">
+			<div class="container noPadding">
+				<nav>
+					<ul class="menuFooter list-unstyled">
+						<li class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+							<label>Prontopro</label>
+							<ul class="list-unstyled">
+								<li><h2><a href="#">Blog</a></h2></li>
+								<li><h2><a href="#">Domande frequenti</a></h2></li>
+								<li><h2><a href="#">Termini e condizioni</a></h2></li>
+								<li><h2><a href="#">Privacy policy</a></h2></li>
+							</ul>
+						</li>
+						<li class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+							<label>Clienti</label>
+							<ul class="list-unstyled">
+								<li><h2><a href="#">Come funzione</a></h2></li>
+								<li><h2><a href="#">Sicurezza</a></h2></li>
+								<li><h2><a href="#">Dicono di noi</a></h2></li>
+							</ul>
+						</li>
+						<li class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+							<label>Professionisti</label>
+							<ul class="list-unstyled">
+								<li><h2><a href="#">Come funzione</a></h2></li>
+								<li><h2><a href="#">I tuoi vantaggi</a></h2></li>
+								<li><h2><a href="#">Sicurezza</a></h2></li>
+								<li><h2><a href="#">Come avere successo</a></h2></li>
+								<li><h2><a href="#">Storie di successo</a></h2></li>
+								<li><h2><a href="#">Crediti</a></h2></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<ul class="list-unstyled col-xs-12 col-sm-3 col-md-3 col-lg-3">
+					<div class="boxImg"><img itemprop="logo" src="img/logoFooter.png" alt="pronto pro" class="img-responsive"></div>
+					<span class="copyright">Copyright © 2015 - Tutti i diritti riservati</span>
+					<div class="boxImg"><img itemprop="logo" src="img/numeroVerde.png" alt="numero verde" class="img-responsive"></div>
+				</li>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery-2.2.0.min.js"></script>
+	<script src="js/bootstrap-typeahead.min.js"></script>
+	<script src="js/validator.min.js"></script>
+	<script src="js/global.js"></script>
+</body>
+</html>

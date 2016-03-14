@@ -1,0 +1,1 @@
+[{"name":"date","label":"Data partenza","type":"date","rules":[]},{"name":"passengers","label":"Numero di passeggeri","type":"number","rules":[{"type":"min","msg":"Almeno uno.","options":{"val":1}},{"type":"max","msg":"Non pi\u00f9 di dieci.","options":{"val":10}}]}]

@@ -1,0 +1,31 @@
+$browser-context: 14; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
+@mixin transition($prop, $time, $easing){
+  -webkit-transition: $prop $time $easing;
+  -moz-transition: $prop $time $easing;
+  -ms-transition: $prop $time $easing;
+  -o-transition: $prop $time $easing;
+}
+
+@mixin resetTransition($prop){
+  -webkit-transition: $prop;
+  -moz-transition: $prop;
+  -ms-transition: $prop;
+  -o-transition: $prop;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin translate($left, $top) {
+  -webkit-transform: translate($left,$top);
+  -ms-transform: translate($left,$top);
+  transform: translate($left,$top);
+}
